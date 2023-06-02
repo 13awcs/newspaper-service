@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@RequestMapping("newspaper")
 @RequiredArgsConstructor
 public class NewspaperController {
     private final NewspaperService newspaperService;
