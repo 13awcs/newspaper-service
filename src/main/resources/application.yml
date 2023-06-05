@@ -3,9 +3,9 @@ server:
 spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://bqyncj75f8cdjhsjtgvq-mysql.services.clever-cloud.com:3306/bqyncj75f8cdjhsjtgvq
-    username: up9iezasierjtuhb
-    password: gUjbBRbphM0CiKiukPrT
+    url: jdbc:mysql://containers-us-west-34.railway.app:7195/railway
+    username: root
+    password: aRzRsFkq4FIHatqSLKzt
   jpa:
     defer-datasource-initialization: 'true'
     hibernate:
